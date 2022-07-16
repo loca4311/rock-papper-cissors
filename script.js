@@ -31,8 +31,6 @@ function getResult(playerChoice, computerChoice) {
   return score
 }
 
-console.log(getResult('Paper', 'Rock'))
-
 function showResult(score, playerChoice, computerChoice) {
   if(score === -1) {
     resultDiv.innerText = 'You Lose!'
